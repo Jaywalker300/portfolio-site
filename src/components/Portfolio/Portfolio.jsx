@@ -1,11 +1,12 @@
 import React from 'react'
 import './Portfolio.css'
-import Item1 from '../../assets/Portfolio items/Responsive admin dash.jpg'
-import Item2 from '../../assets/Portfolio items/item-2.jpg'
-import Item3 from '../../assets//Portfolio items/item-3.png'
-import Item4 from '../../assets/Portfolio items/item-4.jpg'
+import Item1 from '../../assets/Portfolio items/item-1.jpg'
+import Item2 from '../../assets/Portfolio items/Article Summarizer.jpg'
+import Item3 from '../../assets//Portfolio items/item-3.jpg'
+import Item4 from '../../assets/Portfolio items/item-4.png'
 import Item5 from '../../assets/Portfolio items/item-5.jpg'
 import Item6 from '../../assets/Portfolio items/item-6.jpg'
+import Item7 from '../../assets/Portfolio items/item-7.jpg'
 
 
 /* array map item method */
@@ -16,15 +17,23 @@ const data = [
 
     id:1,
     image:Item1,
-    title: 'Responsive Admin DashBoard',
-    github: 'https://github.com',
-    demo: 'https://digitalocean.com/home',
+    title: 'Car rental web application built with NextJS',
+    github: 'https://github.com/Jaywalker300/CAR-SHOWCASE',
+    demo: 'https://car-showcase-5gao.vercel.app/',
+   },
+  {
+
+    id:2,
+    image:Item2,
+    title: 'An Article summarizer built with OpenAI-GPT',
+    github: 'https://jay-ai-summarizer.netlify.app/',
+    demo: 'https://github.com/Jaywalker300/summarizer-ai-gpt.git',
    },
    
    {
      
-     id:2,
-     image:Item2,
+     id:3,
+     image:Item3,
      title: 'Restaurant Menu Page',
      github: 'https://github.com/Jaywalker300/menu-page',
      demo: 'https://jaywalker300.github.io/menu-page/',
@@ -33,8 +42,8 @@ const data = [
 
    {
 
-    id:3,
-    image:Item3,
+    id:4,
+    image:Item4,
     title: 'Skysurf Surf Tours Page',
     github: 'https://github.com/Jaywalker300/skysurf-tour-SPA',
     demo: ' https://jaywalker300.github.io/skysurf-tour-SPA/',
@@ -43,8 +52,8 @@ const data = [
      
    {
 
-    id:4,
-    image:Item4,
+    id:5,
+    image:Item5,
     title: 'Stripe Online Payment Landing page',
     github: 'https://github.com/Jaywalker300/stripe-menu',
     demo: ' https://jaywalker300.github.io/stripe-menu/',
@@ -52,8 +61,8 @@ const data = [
 
     {
 
-    id:5,
-    image:Item5,
+    id:6,
+    image:Item6,
     title: 'Cocktail Database Demo',
     github: 'https://github.com',
     demo: 'https://digitalocean.com/home',
@@ -61,11 +70,11 @@ const data = [
 
 
     {
-      id:6,
-      image:Item6,
-      title: 'Grocery-bud built with react',
-      github: 'https://github.com/Jaywalker300/grocery-bud',
-      demo: 'https://jaywalker300.github.io/grocery-bud/',
+      id:7,
+      image:Item7,
+      title: 'An AI Saas Page built with Next 13, Prisma, Tailwind, Typescript and shadcn for ui components',
+      github: 'https://github.com/Jaywalker300/sabiguy-saas-app',
+      demo: 'https://sabiguy-saas-qqvarfl65-jaywalker300.vercel.app',
     },
    
  ]
